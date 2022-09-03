@@ -15,7 +15,7 @@ function App() {
   useEffect((e) => {
     const fetchWeatherData = async () =>{
       const data = await getFormattedWeatherData(city,units);
-      console.log("myyy data"+data.name)
+     // console.log("myyy data"+data.name)
       // if(data.name !== e.Target.value){
       //   alert("plz right correct city name");
       // }
